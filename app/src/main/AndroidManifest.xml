@@ -19,7 +19,7 @@
         <activity
             android:name=".ReferenceActivity"
             android:label="@string/title_activity_reference"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

@@ -3,12 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:id="@+id/contentMain"
     android:layout_height="match_parent"
-    android:paddingLeft="@dimen/calc.horizontal.margin"
-    android:paddingRight="@dimen/calc.horizontal.margin"
-    android:paddingTop="@dimen/calc.vertical.margin"
-    android:paddingBottom="@dimen/calc.vertical.margin"
+    android:id="@+id/contentMain"
     tools:context=".MainActivity">
 
     <android.support.design.widget.TextInputLayout
@@ -28,14 +24,12 @@
             android:drawablePadding="16dp"
             android:drawableEnd="@drawable/ic_backspace_black_36dp"/>
     </android.support.design.widget.TextInputLayout>
-
     <LinearLayout
         android:id="@+id/llMainLeft"
         android:layout_width="@dimen/calc.btn.size"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_below="@id/tilInput">
-
         <Button
             android:id="@+id/btnSeven"
             android:layout_width="match_parent"
@@ -61,7 +55,6 @@
             android:text="@string/calc.btn.point"
             android:theme="@style/ButtonMDDark"/>
     </LinearLayout>
-
     <LinearLayout
         android:id="@+id/llMainRigth"
         android:layout_width="@dimen/calc.btn.size"
@@ -95,7 +88,6 @@
             android:text="@string/calc.btn.zero"
             android:theme="@style/ButtonMD"/>
     </LinearLayout>
-
     <RelativeLayout
         android:id="@+id/rlOperators"
         android:layout_width="match_parent"
