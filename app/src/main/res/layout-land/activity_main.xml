@@ -34,8 +34,8 @@
         android:orientation="horizontal"
         android:layout_below="@id/tilInput">
         <LinearLayout
-            android:id="@+id/llMainLeft"
-            android:layout_width="@dimen/calc.btn.size"
+
+            android:layout_width="@dimen/calc.btn.width"
             android:layout_height="wrap_content"
             android:orientation="vertical"
           >
@@ -60,8 +60,8 @@
 
         </LinearLayout>
         <LinearLayout
-            android:id="@+id/llMainRigth"
-            android:layout_width="@dimen/calc.btn.size"
+
+            android:layout_width="@dimen/calc.btn.width"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
@@ -86,7 +86,7 @@
 
         </LinearLayout>
     <LinearLayout
-        android:layout_width="@dimen/calc.btn.size"
+        android:layout_width="@dimen/calc.btn.width"
         android:layout_height="wrap_content"
         android:orientation="vertical">
         <Button
@@ -141,7 +141,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <LinearLayout
-                android:id="@+id/llMiddle"
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="cal.btn.textsize">20sp</dimen>
+    <dimen name="cacl.input.height">72dp</dimen>
+    <dimen name="calc.btn.size">54dp</dimen>
+    <dimen name="calc.btn.width">88dp</dimen>
+    <dimen name="calc.btn.textSize">20sp</dimen>
+    <dimen name="calc.horizontal.margin">16dp</dimen>
+    <dimen name="calc.vertical.margin">4dp</dimen>
+</resources>
