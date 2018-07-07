@@ -6,5 +6,5 @@
     <dimen name="calc.btn.width">88dp</dimen>
     <dimen name="calc.btn.textSize">20sp</dimen>
     <dimen name="calc.horizontal.margin">16dp</dimen>
-    <dimen name="calc.vertical.margin">4dp</dimen>
+    <dimen name="calc.vertical.margin">16dp</dimen>
 </resources>

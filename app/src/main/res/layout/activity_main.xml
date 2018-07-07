@@ -5,6 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/contentMain"
+    android:paddingLeft="@dimen/calc.horizontal.margin"
+    android:paddingRight="@dimen/calc.horizontal.margin"
+    android:paddingTop="@dimen/calc.vertical.margin"
+    android:paddingBottom="@dimen/calc.vertical.margin"
     tools:context=".MainActivity">
 
     <android.support.design.widget.TextInputLayout
