@@ -16,5 +16,5 @@ public class Constantes {
     public static final String POINT = ".";
 
 	// El drawable que será dibujado a la derecha del EditText.
-    static final int DRAWABLE_RIGHT = 2;
+    public static final int DRAWABLE_RIGHT = 2;
 }

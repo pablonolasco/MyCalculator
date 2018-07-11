@@ -16,6 +16,7 @@ public class Metodos {
     public static String getOperator(String operation) {
         /*Secuencia de operadores ternarios para saber si la operacion contiene '÷ x +', de lo
           contrario, se asigna el operador = 'null' (sin importar si es '-' o null */
+        //if Ternario
         String operator = operation.contains(Constantes.OPERATOR_MULTI) ? Constantes.OPERATOR_MULTI :
                 operation.contains(Constantes.OPERATOR_BETWEN) ? Constantes.OPERATOR_BETWEN :
                         operation.contains(Constantes.OPERATOR_SUM) ? "\\" + Constantes.OPERATOR_SUM : Constantes.OPERATOR_NULL;
